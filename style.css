@@ -1,0 +1,110 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: Courier New;
+  font-size: medium;
+  margin: 2em;
+}
+
+hr {
+  margin-top: 30px;
+  border-width: 0;
+  border-top: 2px solid #222;
+  width: 125px;
+}
+
+.title-text {
+  font-family: Garamond;
+  font-size: 18px; 
+  letter-spacing: 2px;
+}
+
+.small-column-text {
+  font-size: 14.5px; 
+}
+
+.small-text {
+  font-family: Garamond;
+  font-size: small;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 0;
+}
+
+.column {
+  float: left;
+  width: 290px;
+  padding: 20px;
+}
+
+.row {
+  margin: auto; 
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.container {
+  width: 900px; 
+  margin: auto; 
+  text-align: center;
+}
+
+.logo-image {
+  width: 944px;
+  height: 328px;
+}
+
+.thank-you {
+  width: 578px; 
+  height: 157px; 
+}
+
+@media only screen and (max-width: 990px) {
+  .logo-image {
+    max-width: 100%;
+    height: auto;
+  }
+  .column {
+    float: center;
+    width: 90%; 
+  }
+  .row {
+    margin: auto; 
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .container {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 578px) {
+  .thank-you {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.social-links a {
+  font-size: 25px;
+  padding: 0px 8px;
+  text-decoration: none;
+  color: #444;
+}
+
+.noLinkdecoration {
+  text-decoration: none;
+}
+
+.extra-small-firework {
+  width: 200px;
+  height: 113px;
+}
+
+.small-firework {
+  width: 300px;
+  height: 170px;
+}
