@@ -19,6 +19,12 @@ hr {
   letter-spacing: 2px;
 }
 
+.subtitle-text {
+  font-family: Garamond;
+  font-size: medium; 
+  letter-spacing: 2px;
+}
+
 .small-column-text {
   font-size: 14.5px; 
 }
